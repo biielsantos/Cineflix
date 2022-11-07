@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="divpai">
+        <div class="divfilho">
+          <div class="quadrado"></div>
+          <div class="quadrado"></div>
+          <div class="quadrado"></div>
+          <div class="quadrado"></div>
+          <div class="quadrado"></div>
+        </div>
+        <div>
+          
+          <input class="btnext" type="button" value="NEXT" >
+          <input class="btnprev" type="button" value="PREV" >
+        </div>
+        
+    </div>
+
+
+
+  </body>
+  <script>
+    let btnext = document.getElementsByClassName('btnext')[0]
+    let divfilho = document.getElementsByClassName('divfilho')[0]
+    let btnprev = document.getElementsByClassName('btnprev')[0]
+
+
+
+
+    btnext.onclick = () => {
+      document.getElementsByClassName('divpai')[0].scrollLeft += 20;
+    }
+    btnprev.onclick = () => {
+      document.getElementsByClassName('divpai')[0].scrollLeft += -20;
+    }
+
+  </script>
+
+  <style>
+    .divpai{
+      display: grid;
+      background: green;
+      width: 50%;
+      height: 400px;
+      overflow: scroll;
+    }
+    .divfilho {
+      display: flex;
+    }
+
+    .quadrado{
+      background: blue;
+      width: 250px;
+      height: 250px;
+      margin-right: 15px;
+    }
+
+    .btnext{
+      position: fixed;
+      margin-left: 50px;
+    }
+
+    .btnprev {
+      position: fixed;
+    }
+  </style>
+</html>

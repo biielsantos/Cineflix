@@ -1,0 +1,613 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <!-- API CAROUSEL -->
+    <link rel="stylesheet" href="./owlcarousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./owlcarousel/owl.theme.default.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- API CAROUSEL -->
+
+    <title>Document</title>
+</head>
+<body class="bodymin">
+    <div class="primeira-parte">
+        <!---------- HEADER ---------->
+        <div class="navbar">
+            <div class="welcome">
+                <h4 class="bemvindoh4">Bem vindo, <h4 class="nomevisitante bemvindoh4"> Visitante</h4></h4>
+            </div>
+
+
+            
+            <div class="navitens">
+                <div class="navinicio navitem">
+                    Início
+                </div>
+                <div class="navitem">
+                    Programação
+                </div>
+                <div class="navitem">
+                    Projetos
+                </div>
+                <div class="navitem">
+                    Cineclub<h4 style="color: #263CFF;">+</h4>
+                </div>
+                <div class="navitem">
+                    Sobre nós
+                </div>
+            </div>
+            <div class="pessoal">
+                <img  src="./img/ticket.png" alt="">
+                <img class="imgperfil" src="./img/perfil.png" alt="" srcset="">
+            </div>
+        </div>
+        <!---------- HEADER ---------->
+        <div class="centralizalogo">
+            <img class="logo" src="./img/cineflix-2 1.svg" alt="" srcset="">
+        </div>
+        <div class="centralizalogo">
+            <input class="btncomprar" type="button" value="COMPRAR INGRESSOS" onclick="teste()">
+        </div>
+    </div>
+    <div class="segunda-parte">
+        <div class="quemsomos">
+            <h2   class=" qmtxt">QUEM SOMOS?</h2>
+            <p>
+            <p><p  ><strong class="fontbold">Cineflix Cinemas </strong> é uma marca que nasceu com a experiência das</p>  <p  >operações consolidadas em todas as cidades nas quais já atuava há</p><p> mais de 10 anos.</p>
+            <br>
+            <p  >A rede foi fundada e começou a utilizar a marca <strong class="fontbold">CINEFLIX</strong> em dezembro </p><p  >de <strong class="fontbold">2011</strong>, e toda a experiência acumulada nesse tempo aliada à</p><p > incessante busca por <strong class="fontbold">inovação</strong> refletem na <strong class="fontbold">qualidade</strong> dos serviços e</p> atendimento oferecidos em seus cinemas e, em última instância, na <p  >satisfação proporcionada aos nossos clientes.</p>
+            </p>
+            <input class="btnconheca fontbold" type="button" value="CONHEÇA A CINEFLIX">
+        </div>
+
+        <div class="quadradoflix">
+            <div class="quadradobackground">
+                <div>
+                    <img style="width: 230px;" src="./img/cineflix-2 1.svg" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="terceira-parte">
+        <h1 class="trailerstitulo">TRAILERS EM DESTAQUE</h1>
+
+
+        <div class="divpai">
+            <div class="divfilho">
+                <div class="carddestaque">
+                    <iframe width="100%" height="220" src="https://www.youtube.com/embed/oLCeh_pqjes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="cardfooter">
+                        <span>Minions 2</span>
+                    </div>
+                </div>
+                
+                
+                <div class="carddestaque">
+                    <iframe width="100%" height="220" src="https://www.youtube.com/embed/KIsojttVj4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+                    <div class="cardfooter">
+                        <span>Elvis</span>
+                    </div>
+                </div>
+                <div class="carddestaque">
+                    <iframe width="100%" height="220" src="https://www.youtube.com/embed/rkbBLgpKy8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+                    <div class="cardfooter">
+                        <span>Papai é pop</span>
+                    </div>
+                </div>
+    
+                <div class="carddestaque">
+                    <iframe width="100%" height="220" src="https://www.youtube.com/embed/25XGPHY1TMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+                    <div class="cardfooter">
+                        <span>Cyberpunk</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="direcaobotao">
+            <button class="btnprev"><img class="imgarrowleft" src="./img/arrow-left.png"> </button>
+            <button class="btnext"> <img class="imgarrowright" src="./img/arrow-right.png"> </button>
+        </div>
+        
+        
+        <!-- API CAROUSEL -->
+        <!-- <div class="owl-one owl-carousel">
+
+            <div class="carddestaque">
+                <iframe width="100%" height="220" src="https://www.youtube.com/embed/oLCeh_pqjes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="cardfooter">
+                    <span>Minions 2</span>
+                </div>
+            </div>
+            
+            
+            <div class="carddestaque">
+                <iframe width="100%" height="220" src="https://www.youtube.com/embed/KIsojttVj4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <div class="cardfooter">
+                    <span>Elvis</span>
+                </div>
+            </div>
+            <div class="carddestaque">
+                <iframe width="100%" height="220" src="https://www.youtube.com/embed/rkbBLgpKy8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <div class="cardfooter">
+                    <span>Papai é pop</span>
+                </div>
+
+            </div>
+
+
+            <div class="carddestaque">
+                <iframe width="100%" height="220" src="https://www.youtube.com/embed/25XGPHY1TMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <div class="cardfooter">
+                    <span>Cyberpunk</span>
+                </div>
+            </div>
+        </div> -->
+        <!-- API CAROUSEL -->
+    </div>
+
+    <div class="quarta-parte">
+        <div  class="quemsomos">
+            <h2   class=" qmtxt">NOSSOS DIFERENCIAIS</h2>
+            <p>Nossos cinemas são totalmente <strong class="fontbold">digitalizados</strong>,<p> portanto, não empregamos projetores de película</p> 35mm.</p>
+
+            <p><p>Em alguns complexos, como os localizados nas</p><p> cidades de Cotia, Londrina e Porto Alegre é</p><p> oferecido o serviço <strong class="fontbold">1LINE!</strong>, que consiste na compra</p><p> <strong class="fontbold">automatizada</strong> de ingressos e produtos da</p><p> bombonière, utilizando-se de uma única fila de </p>atendimento.</p>
+            <input class="btnvermais fontbold" type="button" value="VER MAIS">
+        </div>
+        <div style="overflow: hidden;">
+        <div class="divpaiwidth">
+            <div class="divfilhoheight">
+
+
+                <div class="quadradodiferenca">
+                    <div class="centralizalogo">
+                        <img style="margin-top: 95px;" src="./img/dolby-logo.png" >
+                    </div>
+                    <div class="centralizalogo">
+                        <span class="txttecnologia">Novas Tecnologias</span>
+                    </div>
+                    <div class="centralizalogo">
+                        <input class="btnsaibamais fontbold" type="button" value="SAIBA MAIS">
+                    </div>
+                </div>
+
+
+                <div class="quadradodiferenca">
+                    <div class="centralizalogo">
+                        <img style="margin-top:35px;" src="./img/totem-logo.png" >
+                    </div>
+                    <div class="centralizalogo">
+                        <span class="autoatendimento">Totem de<br> autoatendimento</span>
+                    </div>
+                    <div class="centralizalogo">
+                        <input class="btnsaibamais fontbold" type="button" value="SAIBA MAIS">
+                    </div>
+                </div>
+
+
+                <div class="quadradodiferenca">
+                    <div class="centralizalogo">
+                        <img style="margin-top: 95px;" src="./img/Cineclub+.png" >
+                    </div>
+                    <div class="centralizalogo">
+                        <span class="Fidelidade">Programa de <p>Fidelidade</p></span>
+                    </div>
+                    <div class="centralizalogo">
+                        <input class="btnsaibamais fontbold" type="button" value="SAIBA MAIS">
+                    </div>
+                </div>
+
+
+                <div class="quadradodiferenca">
+                    <div class="centralizalogo">
+                        <img style="margin-top: 95px;" src="./img/dolby-logo.png" >
+                    </div>
+                    <div class="centralizalogo">
+                        <span class="txttecnologia">Novas Tecnologias</span>
+                    </div>
+                    <div class="centralizalogo">
+                        <input class="btnsaibamais fontbold" type="button" value="SAIBA MAIS">
+                    </div>
+                </div>
+
+
+                <div class="quadradodiferenca">
+                    <div class="centralizalogo">
+                        <img style="margin-top:35px;" src="./img/totem-logo.png" >
+                    </div>
+                    <div class="centralizalogo">
+                        <span class="autoatendimento">Totem de<br> autoatendimento</span>
+                    </div>
+                    <div class="centralizalogo">
+                        <input class="btnsaibamais fontbold" type="button" value="SAIBA MAIS">
+                    </div>
+                </div>
+
+
+                <div class="quadradodiferenca">
+                    <div class="centralizalogo">
+                        <img style="margin-top: 95px;" src="./img/Cineclub+.png" >
+                    </div>
+                    <div class="centralizalogo">
+                        <span class="Fidelidade">Programa de <p>Fidelidade</p></span>
+                    </div>
+                    <div class="centralizalogo">
+                        <input class="btnsaibamais fontbold" type="button" value="SAIBA MAIS">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="direcaobotao">
+            <button class="btnprev2"><img class="imgarrowleft" src="./img/arrow-left.png"> </button>
+            <button class="btnext2"> <img class="imgarrowright" src="./img/arrow-right.png"> </button>
+        </div>
+    </div>
+    </div>
+
+
+    
+    <div class="quinta-parte">
+        <h2 class="trailerstitulo">PROJETOS</h2>
+        <div class="quinto-pai">
+            <div class="quinto-filho">
+
+
+                <div class="projeto1">
+                    <div class="centralizalogo2">
+                        <img src="img/logo-cineempresarial.png">
+                    </div>
+                    <div class="margin">
+                        <div class="txtprojeto">
+                            Quem disse que trabalho e diversão não se misturam?
+                        </div>
+                        <div class="txtbaixoprojeto">
+                            Leve a sua reunião para dentro do cinema, o lugar perfeito para a sua próxima reunião empresarial.
+                        </div>
+                        <button class="btnsaibaprojeto" type="button" >SAIBA MAIS <img style ="width: 20px;" src="img/arrow-right.png"></button>
+                    </div>
+                </div>
+
+
+
+
+                <div class="projeto2">
+                    <div class="centralizalogo3">
+                        <img src="img/logo-festaflix.png">
+                    </div>
+                    <div class="margin">
+                        <div class="txtprojeto">
+                            Venha fazer sua festa de aniversário no Cinema.
+                        </div>
+                        <div class="txtbaixoprojeto">
+                            Já imaginou um aniversário diferente? Reserve a sala, escolha o filme de sua preferência e ganhe convite cortesia para seus convidados.
+                        </div>
+                        <button class="btnsaibaprojeto2" type="button" >SAIBA MAIS <img style ="width: 20px;" src="img/arrow-right.png"></button>
+                    </div>
+                </div>
+
+
+
+                <div class="projeto3">
+                  <div class="embreve">
+                    EM BREVE
+                  </div>
+                  <div class="centralizalogo3">
+                    <img src="img/bandeirafranca.png">
+                </div>
+                <div class="margin">
+                    <div class="txtprojeto">
+                        Vive la France!
+                    </div>
+                    <div class="txtbaixoprojeto">
+                        Venha fazer parte dessa experiência cultural 
+                        com o melhor do cinema francês, mensalmente aqui na Cineflix.
+                    </div>
+                    <button class="btnsaibaprojeto3" type="button" >SAIBA MAIS <img style ="width: 20px;" src="img/arrow-right.png"></button>
+                </div>
+                </div>
+
+
+                <div class="projeto1">
+                    <div class="centralizalogo2">
+                        <img src="img/logo-cineempresarial.png">
+                    </div>
+                    <div class="margin">
+                        <div class="txtprojeto">
+                            Quem disse que trabalho e diversão não se misturam?
+                        </div>
+                        <div class="txtbaixoprojeto">
+                            Leve a sua reunião para dentro do cinema, o lugar perfeito para a sua próxima reunião empresarial.
+                        </div>
+                        <button class="btnsaibaprojeto" type="button" >SAIBA MAIS <img style ="width: 20px;" src="img/arrow-right.png"></button>
+                    </div>
+                </div>
+
+
+
+
+                <div class="projeto2">
+                    <div class="centralizalogo3">
+                        <img src="img/logo-festaflix.png">
+                    </div>
+                    <div class="margin">
+                        <div class="txtprojeto">
+                            Venha fazer sua festa de aniversário no Cinema.
+                        </div>
+                        <div class="txtbaixoprojeto">
+                            Já imaginou um aniversário diferente? Reserve a sala, escolha o filme de sua preferência e ganhe convite cortesia para seus convidados.
+                        </div>
+                        <button class="btnsaibaprojeto2" type="button" >SAIBA MAIS <img style ="width: 20px;" src="img/arrow-right.png"></button>
+                    </div>
+                </div>
+
+
+
+                <div class="projeto3">
+                  <div class="embreve">
+                    EM BREVE
+                  </div>
+                  <div class="centralizalogo3">
+                    <img src="img/bandeirafranca.png">
+                </div>
+                <div class="margin">
+                    <div class="txtprojeto">
+                        Vive la France!
+                    </div>
+                    <div class="txtbaixoprojeto">
+                        Venha fazer parte dessa experiência cultural 
+                        com o melhor do cinema francês, mensalmente aqui na Cineflix.
+                    </div>
+                    <button class="btnsaibaprojeto3" type="button" >SAIBA MAIS <img style ="width: 20px;" src="img/arrow-right.png"></button>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="direcaobotao">
+            <button class="btnprev3"><img class="imgarrowleft" src="./img/arrow-left.png"> </button>
+            <button class="btnext3"> <img class="imgarrowright" src="./img/arrow-right.png"> </button>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="sexta-parte">
+        <h2 class="trailerstitulo">PRÓXIMO LANÇAMENTOS</h2>
+        <div class="sexto-pai">
+            <div class="sexto-filho">
+                <div class="lancamento">
+                    <img src="img/lançamento1.png">
+                </div>
+                <div class="lancamento">
+                    <img src="img/lançamento2.png">
+                </div>
+                <div class="lancamento">
+                    <img src="img/lançamento3.png">
+                </div>
+                <div class="lancamento">
+                    <img src="img/lançamento4.png">
+                </div>
+                <div class="lancamento">
+                    <img src="img/lançamento1.png">
+                </div>
+                <div class="lancamento">
+                    <img src="img/lançamento2.png">
+                </div>
+            </div>
+        </div>
+        <div class="direcaobotao">
+            <button class="btnprev4"><img class="imgarrowleft" src="./img/arrow-left.png"> </button>
+            <button class="btnext4"> <img class="imgarrowright" src="./img/arrow-right.png"> </button>
+        </div>
+    </div>
+
+
+
+    <div class="setima-parte">
+        <div class="centralizacineclub">
+            <div class="backclube">
+                <div class="dono-txt-clube">
+                    <h1 class="cinetxt">Cineclube<h1 class="maiszinhoazul">+</h1></h1>
+                </div>
+                <div class="centralizaprogramatxt">
+                    <h1 class="programa-txt">programa de vantagens</h1>
+                </div>
+
+                <div class="dono-txt-clube-2">
+                    <p class="txt-cineclube">O programa de fidelidade Cineclube<span class="maiszinhomenor">+</span> tem a finalidade de beneficiar os clientes da</p> rede Cineflix, devidamente cadastrados, com prêmios.</h4>
+                </div>
+
+                <div class="centralizaprogramatxt">
+                    <input class="inputemail" type="email" name="inputemail" placeholder="Digite seu Email...">
+                </div>
+                
+                <div class="centralizaprogramatxt">
+                    <button class="btncadastrarclube">Cadastrar</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="oitava-parte">
+        <div class="quemsomos">
+            <h1 class="trailerstitulo">ONDE NOS ENCONTRAR</h1>
+
+            <p>A rede <strong class="fontbold">Cineflix</strong> está presente nos estados</p><p> de: <strong class="fontbold">São Paulo, Paraná, Rio Grande do Sul,</p><p> Distrito Federal, Goiás e Mato Grosso.</p>
+
+            <p style="margin-top: 20px;"></strong> São <strong class="fontbold">18</strong> multiplex distribuídos em <strong class="fontbold">91</strong> salas de</p><p> cinema. A rede conta com um plano de</p><p> expansão agressivo com o objetivo de</p><p> inaugurar <strong class="fontbold">novas unidades</strong> em todas as</p> regiões do Brasil.</p>
+
+            <input class="btndescubramais fontbold" type="button" value="DESCUBRA MAIS">
+        </div>
+        <div>
+            <img class="imgbrasil" src="./img/brasil.png">
+        </div>
+        <div class="lugares">
+            <p class="pespacamento"><span class="traco">-</span> Maringá Park</p>
+            <p class="pespacamento"><span class="traco">-</span> Shopping Total</p>
+            <p class="pespacamento"><span class="traco">-</span> Buriti Shopping Mogi Guaçu</p>
+            <p class="pespacamento"><span class="traco">-</span> Shopping Pelotas</p>
+            <p class="pespacamento"><span class="traco">-</span> JK Shopping Brasilia</p>
+            <p class="pespacamento"><span class="traco">-</span> Shopping Botucatu</p>
+            <p class="pespacamento"><span class="traco">-</span> Shopping Praça Nova Araçatuba</p>
+            <p class="pespacamento"><span class="traco">-</span> Buriti Shopping Rio Verde</p>
+            <p class="pespacamento"><span class="traco">-</span> Partage Shopping Rio Grande</p>
+            <p class="pespacamento"><span class="traco">-</span> Miramar Shopping Santos</p>
+            <p class="pespacamento"><span class="traco">-</span> Várzea Grande Shopping</p>
+            <p class="pespacamento"><span class="traco">-</span> The Square Granja Viana</p>
+            <p class="pespacamento"><span class="traco">-</span> Aparecida Shopping</p>
+            <p class="pespacamento"><span class="traco">-</span> Cantareira Norte Shopping</p>
+            <p class="pespacamento"><span class="traco">-</span> Aurora Shopping Londrina</p>
+            <p class="pespacamento"><span class="traco">-</span> Shopping Sul Valparaíso</p>
+            <p class="pespacamento"><span class="traco">-</span> Shopping ParkCity Sumaré</p>
+            <p class="pespacamento"><span class="traco">-</span> Shopping Cidade Maringá</p>
+
+        </div>
+    </div>
+
+
+
+
+
+    <div class="nona-parte">
+        <div class="quadradodentro">
+
+            <div class="dentro-esquerda">
+                <img src="./img/logo-cineflix.png" alt="">
+
+                <p class="instaletxt">Instale nosso aplicativo agora!</p>
+
+                <span class="quemsomos"><p>Tenha informações sobre <strong class="fontbold">horários de filmes</strong>, <strong class="fontbold">compre seu ingresso</strong>,</p><p> receba <strong class="fontbold">promoções exclusivas</strong> do Cineflix mais próximo de você a</p> qualquer momento!</span>
+                <div class="divpontoamarelo">
+                    <div class="circuloamarelo"></div>
+                    <span class="maisdowloads">Mais de 100 mil downloads</span>
+                </div>
+                <div class="divbtndowloads">
+                    <img src="/img/googleplaybtn.svg" alt="">
+                    <img src="/img/appstorebtn.svg" alt="">
+                </div>
+                
+            </div>
+
+            <div class="divcelular">
+                <img class="imgcelular" src="./img/img-celular.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="decima-parte">
+        <div>
+            <img class="logocine" src="./img/logo-cineflix.svg" alt="">
+            <div style="display: flex;">
+                <img class="logos" src="/img/logoface.svg" alt="">
+                <img class="logos" src="/img/logotwitter.svg" alt="">
+                <img class="logos" src="/img/logoinstagram.svg" alt="">
+                <img class="logos" src="/img/logotiktok.svg" alt="">
+                <img class="logos" src="/img/logoyoutube.svg" alt="">
+                <img class="logos" src="/img/logoemail.svg" alt="">
+            </div>
+            <p class="newsletter"> newsletter</p>
+            <button class="btnassine">ASSINE JÁ</button>
+        </div>
+
+        <div class="footer-linha2">
+            <h4 class="iniciofooter">INÍCIO</h4>
+            <p class="txtfooter">Quem somos?</p>
+            <p class="txtfooter">Tailers em destaque</p>
+            <p class="txtfooter">Nossos diferenciais</p>
+            <p class="txtfooter">Projetos</p>
+            <p class="txtfooter">Próximos lançamentos</p>
+            <p class="txtfooter">Cineclub+</p>
+            <p class="txtfooter">Onde nos encontrar</p>
+            <h4 class="programacaofooter">PROGRAMAÇÃO</h4>
+            <p class="txtfooter">Programação da semana</p>
+            <p class="txtfooter">Próximos lançamentos</p>
+        </div>
+
+        <div class="footer-linha3">
+            <h4 class="linha3">PROJETOS</h4>
+            <p class="txtfooter">Cineflix Empresarial</p>
+            <p class="txtfooter">Festaflix</p>
+            <p class="txtfooter">Cinema Frânces</p>
+            <p class="txtfooter">Bebê a bordo</p>
+            <p class="txtfooter">Projeto Belas Artes</p>
+            <p class="txtfooter">Minha Turma</p>
+            <p class="txtfooter"> </p>
+            <h4 class="programacaofooter">CONTATO</h4>
+            <p class="txtfooter">Fale Conosco</p>
+            <p class="txtfooter">Anuncie</p>
+            <p class="txtfooter">Trabalhe Conosco</p>
+            <p class="txtfooter">Política de Privacidade</p>
+            <p class="txtfooter">Uso de Cookies</p>
+        </div>
+
+        <div class="footer-linha4">
+            <h4 class="linha3">CINECLUB<strong class="cineblubmais">+</strong></h4>
+            <p class="txtfooter">Cadastro</p>
+            <p class="txtfooter">Prêmios</p>
+            <p class="txtfooter">Regulamento</p>
+            <p class="txtfooter">FAQ</p>
+            <p class="txtfooter"> </p>
+            <p class="txtfooter"> </p>
+            <p class="txtfooter"> </p>
+            <h4 class="programacaofooter">SOBRE NÓS</h4>
+            <p class="txtfooter">Cineflix</p>
+            <p class="txtfooter">Cinemas pelo Brasil</p>
+            <p class="txtfooter">Trabalhe Conosco</p>
+            <p class="txtfooter">Diferenciais</p>
+        </div>
+        
+        <div class="footer-footer">
+            <span class="txtfooterbaixo">© 2022 CINEFLIX CINEMAS</span>
+            <span class="spanmeio txtfooterbaixo">POLÍTICA DE PRIVACIDADE <div class="bolafooter"></div> USO DE COOKIES</span>
+            <span class="txtfooterbaixo">TODOS OS DIREITOS RESERVADOS</span>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+
+
+    <!-- API CAROUSEL -->
+    <!-- <script src="jquery.min.js"></script>
+    <script src="./owlcarousel/owl.carousel.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".owl-one").owlCarousel({
+          nav: true,
+          dotsEach:true,
+        });
+      });
+
+      
+    </script> -->
+    
+     <!-- API CAROUSEL -->
+     <script>
+
+     </script>
+</body>
+</html>
